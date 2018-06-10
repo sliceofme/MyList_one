@@ -20,7 +20,7 @@ private:
 	Node* head;
 	int size;
 
-	List(const List&) = delete;      //не точно
+	List(const List&) = delete;      //РЅРµ С‚РѕС‡РЅРѕ
 	List& operator=(const List&) = delete;
 public:
 	List();
